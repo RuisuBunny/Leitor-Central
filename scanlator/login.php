@@ -66,12 +66,12 @@ session_start();
     }
     ?>
             <div class="jumbotron  container">
-                <form method="POST" action="../funcoes/verifica-login.php">
+                <form method="POST" action="../funcoes/verifica_login.php">
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Email</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1"
-                            aria-describedby="emailHelp" name="email" placeholder="Digite seu email">
-                        <small id="emailHelp" class="form-text text-muted">Não compartilhe seu email com
+                        <label for="exampleInputEmail1">Nick</label>
+                        <input type="name" class="form-control" id="exampleInputEmail1"
+                            aria-describedby="emailHelp" name="nick" placeholder="Digite seu nickname">
+                        <small id="emailHelp" class="form-text text-muted">Não compartilhe sua senha com
                             ninguém</small>
                     </div>
                     <div class="form-group">

@@ -1,6 +1,6 @@
 <?php 
 session_start();
-include_once '../conexao.php';
+include_once '../funcoes/conexao.php';
 $btnCadUsuario = filter_input(INPUT_POST, 'btnCadUsuario', FILTER_SANITIZE_STRING);
 
 //var_dump($_SESSION);
